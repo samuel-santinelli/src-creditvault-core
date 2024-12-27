@@ -15,7 +15,6 @@ public class CardController {
 
     @Autowired
     private CardService cardService;
-
     // Endpoint for to save a card
     @PostMapping
     public ResponseEntity<Card> createCard(@RequestBody Card card) {
